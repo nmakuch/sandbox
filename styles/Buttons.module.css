@@ -13,9 +13,8 @@
 
 .primary:focus {
   background-color: #303fc3;
-  box-shadow: 0 0 0 2px white;
-  outline: solid 2px #303fc3;
-  outline-offset: 2px;
+  outline: none;
+  border: 1px solid #303fc3;
 }
 
 .primary:hover {
@@ -55,16 +54,15 @@
 .secondary:focus {
   background-color: #303fc3;
   color: white;
-  box-shadow: 0 0 0 2px white;
-  outline: solid 2px #303fc3;
-  outline-offset: 2px;
   border-color: #303fc3;
+  border: 1px solid #303fc3;
+  outline: none;
 }
 
 .secondary:hover {
-  background-color: #C4C5CA;
+  background-color: #c4c5ca;
   color: #26374a;
-  border-color: #26374a;
+  border: 1px solid #26374a;
 }
 
 .secondary:active {
@@ -99,10 +97,7 @@
   background-color: #303fc3;
   color: white;
   outline: none;
-  border-color: #303fc3;
-  box-shadow: 0 0 0 2px white;
-  outline: solid 2px #303fc3;
-  outline-offset: 2px;
+  border: 1px solid #303fc3;
 }
 
 .danger:hover {
@@ -140,4 +135,18 @@
 
 .buttonsSection {
   margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 1250px) {
+  .container {
+    margin: auto;
+    width: 900px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .container {
+    margin: auto;
+    width: 700px;
+  }
 }
