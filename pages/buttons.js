@@ -21,7 +21,7 @@ export default function Home() {
 
                     <section className={styles.buttonsSection}>
                         <h1>Buttons</h1>
-                        <p>Here is a list of buttons we currently know the token values for. Here we can test the :active, :hover and :focus states together. Sometimes it's harder to visual these things working together in figma.</p>
+                        <p>Here is a list of buttons we currently know the token values for. Here we can test the <b>:active</b>, <b>:hover</b> and <b>:focus</b> states together. Sometimes it's harder to visualize these things working together in figma.</p>
                     </section>
 
                     <section className={styles.buttonsSection}>
@@ -47,6 +47,11 @@ export default function Home() {
                     <section className={styles.buttonsSection}>
                         <h2>Disabled Secondary button</h2>
                         <button className={styles.secondaryDisabled}>Disabled Secondary Button</button>
+                    </section>
+
+                    <section className={styles.buttonsSection}>
+                        <h2>Disabled Danger button</h2>
+                        <button className={styles.dangerDisabled}>Disabled Danger Button</button>
                     </section>
 
 

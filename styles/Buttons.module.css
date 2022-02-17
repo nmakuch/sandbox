@@ -124,11 +124,11 @@
 .dangerDisabled {
   font-size: 20px;
   font-family: "Lato Sans", sans-serif;
-  background-color: #eaebed;
-  border: 1px solid #26374a;
+  background-color: #bc3331;
+  border: 1px solid #bc3331;
   cursor: not-allowed;
   padding: 12px;
-  color: #26374a;
+  color: white;
   border-radius: 4px;
   opacity: 35%;
 }
