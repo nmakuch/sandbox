@@ -40,6 +40,15 @@
   border-radius: 4px;
 }
 
+.primaryDisabled:focus {
+  background-color: #303fc3;
+  border: 1px solid #303fc3;
+  box-shadow: 0 0 0 3px white;
+  outline: solid 3px #303fc3;
+  outline-offset: 3px;
+  color: white;
+}
+
 .primaryDisabled {
   font-size: 20px;
   font-family: "Lato Sans", sans-serif;
@@ -47,7 +56,7 @@
   cursor: not-allowed;
   padding: 12px;
   color: white;
-  border: none;
+  border: 1px solid #26374a;
   border-radius: 4px;
   opacity: 35%;
 }
@@ -82,6 +91,15 @@
   padding: 12px;
   color: #26374a;
   border-radius: 4px;
+}
+
+.secondaryDisabled:focus {
+  background-color: #303fc3;
+  border: 1px solid #303fc3;
+  box-shadow: 0 0 0 3px white;
+  outline: solid 3px #303fc3;
+  outline-offset: 3px;
+  color: white;
 }
 
 .secondaryDisabled {
@@ -126,6 +144,14 @@
   border-radius: 4px;
 }
 
+.dangerDisabled:focus {
+  background-color: #303fc3;
+  border: 1px solid #303fc3;
+  box-shadow: 0 0 0 3px white;
+  outline: solid 3px #303fc3;
+  outline-offset: 3px;
+}
+
 .dangerDisabled {
   font-size: 20px;
   font-family: "Lato Sans", sans-serif;
@@ -165,6 +191,14 @@
   color: white;
   border: 1px solid #318000;
   border-radius: 4px;
+}
+
+.superDisabled:focus {
+  background-color: #303fc3;
+  border: 1px solid #303fc3;
+  box-shadow: 0 0 0 3px white;
+  outline: solid 3px #303fc3;
+  outline-offset: 3px;
 }
 
 .superDisabled {
