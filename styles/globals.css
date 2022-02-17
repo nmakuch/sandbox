@@ -1,0 +1,43 @@
+html,
+body {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  line-height: 1.65em;
+  font-family: "Noto Sans", sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.back:hover {
+  color: #26374a;
+}
+
+.back:focus {
+  outline: none;
+  background-color: #303fc3;
+  color: white;
+  box-shadow: 4px 0 0 0 #303fc3, -4px 0 0 0 #303fc3;
+}
+
+.back {
+  color: blue;
+  text-decoration: underline;
+}
+
+.back:active {
+  background-color: #000a61;
+  box-shadow: 4px 0 0 0 #000a61, -4px 0 0 0 #000a61;
+}
+
+* {
+  box-sizing: border-box;
+}

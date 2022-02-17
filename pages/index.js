@@ -1,0 +1,56 @@
+import Head from 'next/head'
+import Image from 'next/image'
+import styles from '../styles/Home.module.css'
+
+export default function Home() {
+  return (
+    <div className={styles.container}>
+      <Head>
+        <title>NM Sandbox</title>
+        <meta name="description" content="A place to test stuff I'm working on" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+      </Head>
+
+      <main className={styles.main}>
+        <h1 className={styles.title}>
+          NM Sandbox
+        </h1>
+
+        <p className={styles.description}>
+          A place to test stuff I'm working on
+        </p>
+
+        <div className={styles.grid}>
+          <a href="/skip" className={styles.card}>
+            <h2>Skip to content</h2>
+            <p>Testing a skip to content button for Canada.ca</p>
+          </a>
+          <a href="/buttons" className={styles.card}>
+            <h2>Button States</h2>
+            <p>Testing button states for Canada.ca</p>
+          </a>
+        </div>
+
+        <div className={styles.grid}>
+
+        </div>
+      </main>
+
+      <footer className={styles.footer}>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Powered by{' '}
+          <span className={styles.logo}>
+            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+          </span>
+        </a>
+      </footer>
+    </div>
+  )
+}

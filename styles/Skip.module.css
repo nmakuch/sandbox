@@ -1,0 +1,89 @@
+.canadaH1 {
+  font-size: 38px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  border-bottom: 1px solid #af3c43;
+  margin-bottom: 0.2em;
+  margin-top: 2.5em;
+  padding-bottom: 0.2em;
+}
+
+.nav {
+  border-top: 3px solid #38414d;
+}
+
+.container {
+  margin: auto;
+  width: 1170px;
+}
+
+.nav .container button {
+  cursor: pointer;
+  background-color: #26374a;
+  border: 2px solid #26374a;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  width: 125.5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fipContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 1170px;
+  padding: 0 14px 28px 14px;
+}
+
+.input {
+  height: auto;
+  min-height: 37px;
+  width: 323px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  padding: 6px 12px;
+  line-height: 1.4375;
+  border: 1px solid #ccc;
+}
+
+.search {
+  display: flex;
+}
+
+.searchSubmit {
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  border-color: #26374a;
+  background-color: #26374a;
+}
+
+.language {
+  color: #284162;
+  text-decoration: underline;
+  padding: 14px 14px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  text-align: right;
+  margin: auto;
+  width: 1170px;
+}
+
+.skip {
+  background: #e77e23;
+  height: 30px;
+  left: 50%;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-130%);
+  transition: transform 0.3s;
+}
+
+.skip:focus {
+  transform: translateY(0%);
+}

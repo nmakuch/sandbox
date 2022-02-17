@@ -1,0 +1,143 @@
+.container {
+  margin: auto;
+  width: 1170px;
+}
+
+.buttonsMain {
+  margin-top: 2rem;
+}
+
+.buttonsHeader {
+  margin: 2rem 0;
+}
+
+.primary:focus {
+  background-color: #303fc3;
+  box-shadow: 0 0 0 2px white;
+  outline: solid 2px #303fc3;
+  outline-offset: 2px;
+}
+
+.primary:hover {
+  background-color: #405b79;
+  border: 1px solid #405b79;
+}
+
+.primary:active {
+  box-shadow: inset 0 0 0 4px #5e7c9f;
+  background-color: #26374a;
+}
+
+.primary {
+  font-size: 20px;
+  font-family: "Lato Sans", sans-serif;
+  background-color: #26374a;
+  cursor: pointer;
+  padding: 12px;
+  color: white;
+  border: 1px solid #26374a;
+  border-color: #26374a;
+  border-radius: 4px;
+}
+
+.primaryDisabled {
+  font-size: 20px;
+  font-family: "Lato Sans", sans-serif;
+  background-color: #26374a;
+  cursor: not-allowed;
+  padding: 12px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  opacity: 35%;
+}
+
+.secondary:focus {
+  background-color: #303fc3;
+  color: white;
+  box-shadow: 0 0 0 2px white;
+  outline: solid 2px #303fc3;
+  outline-offset: 2px;
+  border-color: #303fc3;
+}
+
+.secondary:hover {
+  background-color: #C4C5CA;
+  color: #26374a;
+  border-color: #26374a;
+}
+
+.secondary:active {
+  box-shadow: inset 0 0 0 3px #9f9f9f;
+  background-color: #eaebed;
+}
+
+.secondary {
+  font-size: 20px;
+  font-family: "Lato Sans", sans-serif;
+  background-color: #eaebed;
+  border: 1px solid #26374a;
+  cursor: pointer;
+  padding: 12px;
+  color: #26374a;
+  border-radius: 4px;
+}
+
+.secondaryDisabled {
+  font-size: 20px;
+  font-family: "Lato Sans", sans-serif;
+  background-color: #eaebed;
+  border: 1px solid #26374a;
+  cursor: not-allowed;
+  padding: 12px;
+  color: #26374a;
+  border-radius: 4px;
+  opacity: 35%;
+}
+
+.danger:focus {
+  background-color: #303fc3;
+  color: white;
+  outline: none;
+  border-color: #303fc3;
+  box-shadow: 0 0 0 2px white;
+  outline: solid 2px #303fc3;
+  outline-offset: 2px;
+}
+
+.danger:hover {
+  background-color: #5e1d1d;
+  border-color: #5e1d1d;
+}
+
+.danger:active {
+  background-color: #bc3331;
+  box-shadow: inset 0 0 0 3px #5e1d1d;
+}
+
+.danger {
+  font-size: 20px;
+  font-family: "Lato Sans", sans-serif;
+  background-color: #bc3331;
+  border: 1px solid #bc3331;
+  cursor: pointer;
+  padding: 12px;
+  color: white;
+  border-radius: 4px;
+}
+
+.dangerDisabled {
+  font-size: 20px;
+  font-family: "Lato Sans", sans-serif;
+  background-color: #eaebed;
+  border: 1px solid #26374a;
+  cursor: not-allowed;
+  padding: 12px;
+  color: #26374a;
+  border-radius: 4px;
+  opacity: 35%;
+}
+
+.buttonsSection {
+  margin-bottom: 3rem;
+}
