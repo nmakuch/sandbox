@@ -35,13 +35,13 @@ export default function Home() {
                     </section>
 
                     <section className={styles.buttonsSection}>
-                        <h2>Supertask button</h2>
-                        <button className={styles.super}>Supertask Button</button>
+                        <h2>Danger button</h2>
+                        <button className={styles.danger}>Danger Button</button>
                     </section>
 
                     <section className={styles.buttonsSection}>
-                        <h2>Danger button</h2>
-                        <button className={styles.danger}>Danger Button</button>
+                        <h2>Supertask button</h2>
+                        <button className={styles.super}>Supertask Button</button>
                     </section>
 
                     <section className={styles.buttonsSection}>
