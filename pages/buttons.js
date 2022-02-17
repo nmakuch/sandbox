@@ -6,7 +6,7 @@ export default function Home() {
         <div>
             <Head>
                 <title>Buttons</title>
-                <meta name="description" content="Testing a skip to content component" />
+                <meta name="description" content="A space for testing Canada.ca buttons" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
