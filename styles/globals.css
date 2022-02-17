@@ -18,7 +18,8 @@ a {
 }
 
 .back:hover {
-  color: #26374a;
+  color: #2a82cf;
+  text-decoration: underline;
 }
 
 .back:focus {
@@ -29,13 +30,18 @@ a {
 }
 
 .back {
-  color: blue;
-  text-decoration: underline;
+  color: #26374a;
+  text-decoration: none;
 }
 
 .back:active {
   background-color: #000a61;
   box-shadow: 4px 0 0 0 #000a61, -4px 0 0 0 #000a61;
+}
+
+a {
+  color: #26374a;
+  text-decoration: none;
 }
 
 * {

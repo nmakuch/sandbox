@@ -45,6 +45,11 @@ export default function Home() {
                     </section>
 
                     <section className={styles.buttonsSection}>
+                        <h2>Text-only Button</h2>
+                        <a href="#" className="back">Text-only Button</a>
+                    </section>
+
+                    <section className={styles.buttonsSection}>
                         <h2>Disabled Primary button</h2>
                         <button className={styles.primaryDisabled}>Disabled Primary Button</button>
                     </section>
