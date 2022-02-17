@@ -24,10 +24,6 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/skip" className={styles.card}>
-            <h2>Skip to content</h2>
-            <p>Testing a skip to content button for Canada.ca</p>
-          </a>
           <a href="/buttons" className={styles.card}>
             <h2>Button States</h2>
             <p>Testing button states for Canada.ca</p>
