@@ -35,6 +35,11 @@ export default function Home() {
                     </section>
 
                     <section className={styles.buttonsSection}>
+                        <h2>Supertask button</h2>
+                        <button className={styles.super}>Supertask Button</button>
+                    </section>
+
+                    <section className={styles.buttonsSection}>
                         <h2>Danger button</h2>
                         <button className={styles.danger}>Danger Button</button>
                     </section>
@@ -52,6 +57,11 @@ export default function Home() {
                     <section className={styles.buttonsSection}>
                         <h2>Disabled Danger button</h2>
                         <button className={styles.dangerDisabled}>Disabled Danger Button</button>
+                    </section>
+
+                    <section className={styles.buttonsSection}>
+                        <h2>Disabled Supertask button</h2>
+                        <button className={styles.superDisabled}>Disabled Supertask Button</button>
                     </section>
 
 
