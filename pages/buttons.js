@@ -51,22 +51,22 @@ export default function Home() {
 
                     <section className={styles.buttonsSection}>
                         <h2>Disabled Primary button</h2>
-                        <button className={styles.primaryDisabled}>Disabled Primary Button</button>
+                        <button aria-disabled="true" className={styles.primary}>Disabled Primary Button</button>
                     </section>
 
                     <section className={styles.buttonsSection}>
                         <h2>Disabled Secondary button</h2>
-                        <button className={styles.secondaryDisabled}>Disabled Secondary Button</button>
+                        <button aria-disabled="true" className={styles.secondary}>Disabled Secondary Button</button>
                     </section>
 
                     <section className={styles.buttonsSection}>
                         <h2>Disabled Danger button</h2>
-                        <button className={styles.dangerDisabled}>Disabled Danger Button</button>
+                        <button aria-disabled="true" className={styles.danger}>Disabled Danger Button</button>
                     </section>
 
                     <section className={styles.buttonsSection}>
                         <h2>Disabled Supertask button</h2>
-                        <button className={styles.superDisabled}>Disabled Supertask Button</button>
+                        <button aria-disabled="true" className={styles.super}>Disabled Supertask Button</button>
                     </section>
 
 
