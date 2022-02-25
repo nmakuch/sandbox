@@ -18,7 +18,6 @@ export default function Home() {
 
             <main className={styles.buttonsMain}>
                 <div className={styles.container}>
-
                     <section className={styles.buttonsSection}>
                         <h1>Buttons</h1>
                         <p>Here is a list of buttons we currently know the token values for. Here we can test the <b>:active</b>, <b>:hover</b> and <b>:focus</b> states together. Sometimes it's harder to visualize these things working together in figma.</p>
@@ -46,7 +45,7 @@ export default function Home() {
 
                     <section className={styles.buttonsSection}>
                         <h2>Text-only Button</h2>
-                        <a href="#" className="back">Text-only Button</a>
+                        <a tabIndex="0" className={styles.textOnly}>Text-only Button</a>
                     </section>
 
                     <section className={styles.buttonsSection}>
@@ -68,8 +67,6 @@ export default function Home() {
                         <h2>Disabled Supertask button</h2>
                         <button aria-disabled="true" className={styles.super}>Disabled Supertask Button</button>
                     </section>
-
-
                 </div>
             </main>
 
