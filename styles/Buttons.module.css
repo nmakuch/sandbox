@@ -13,7 +13,7 @@
 
 .primary:focus {
   background-color: #303fc3;
-  border: 1px solid #303fc3;
+  border: 2px solid #303fc3;
   box-shadow: 0 0 0 2px white;
   outline: solid 3px #303fc3;
   outline-offset: 2px;
@@ -21,7 +21,7 @@
 
 .primary:hover {
   background-color: #405b79;
-  border: 1px solid #405b79;
+  border: 2px solid #405b79;
   outline-color: #405b79;
 }
 
@@ -38,16 +38,16 @@
   cursor: pointer;
   padding: 12px;
   color: white;
-  border: 1px solid #26374a;
+  border: 2px solid #26374a;
   border-radius: 4px;
   transition: all 0.1s ease-in-out;
 }
 
 .primary[aria-disabled="true"]:focus {
-  background-color: #303fc3;
-  border: 1px solid #303fc3;
+  background-color: #606CD7;
+  border: 2px solid #606CD7;
   box-shadow: 0 0 0 3px white;
-  outline: solid 3px #303fc3;
+  outline: solid 3px #606CD7;
   outline-offset: 2px;
   color: white;
 }
@@ -55,13 +55,12 @@
 .primary[aria-disabled="true"] {
   font-size: 20px;
   font-family: "Lato Sans", sans-serif;
-  background-color: #26374a;
+  background-color: #EDEDED;
   cursor: not-allowed;
   padding: 12px;
-  color: white;
-  border: 1px solid #26374a;
+  color: #6B6B6B;
+  border: 2px solid #6B6B6B;
   border-radius: 4px;
-  opacity: 35%;
 }
 
 .secondary:focus {
@@ -75,7 +74,7 @@
 }
 
 .secondary:hover {
-  background-color: #c7d6ee;
+  background-color: #b7d0e6;
   color: #26374a;
   border: 2px solid #26374a;
   outline-color: #26374a;
@@ -100,10 +99,10 @@
 }
 
 .secondary[aria-disabled="true"]:focus {
-  background-color: #303fc3;
-  border: 2px solid #303fc3;
+  background-color: #606CD7;
+  border: 2px solid #606CD7;
   box-shadow: 0 0 0 3px white;
-  outline: solid 3px #303fc3;
+  outline: solid 3px #606CD7;
   outline-offset: 2px;
   color: white;
 }
@@ -111,13 +110,12 @@
 .secondary[aria-disabled="true"] {
   font-size: 20px;
   font-family: "Lato Sans", sans-serif;
-  background-color: #eaebed;
-  border: 2px solid #26374a;
+  background-color: #EDEDED;
+  border: 2px solid #bfbfbf;
   cursor: not-allowed;
   padding: 12px;
-  color: #26374a;
+  color: #6B6B6B;
   border-radius: 4px;
-  opacity: 35%;
 }
 
 .danger:focus {
@@ -153,23 +151,23 @@
 }
 
 .danger[aria-disabled="true"]:focus {
-  background-color: #303fc3;
-  border: 2px solid #303fc3;
+  background-color: #606CD7;
+  border: 2px solid #606CD7;
   box-shadow: 0 0 0 3px white;
-  outline: solid 3px #303fc3;
+  outline: solid 3px #606CD7;
   outline-offset: 2px;
+  color: white;
 }
 
 .danger[aria-disabled="true"] {
   font-size: 20px;
   font-family: "Lato Sans", sans-serif;
-  background-color: #bc3331;
-  border: 2px solid #bc3331;
+  background-color: #F3E2E2;
+  border: 2px solid #ceafaf;
   cursor: not-allowed;
   padding: 12px;
-  color: white;
+  color: #865B5B;
   border-radius: 4px;
-  opacity: 35%;
 }
 
 .super:focus {
@@ -204,24 +202,23 @@
 }
 
 .super[aria-disabled="true"]:focus {
-  background-color: #303fc3;
-  border: 2px solid #303fc3;
+  background-color: #606CD7;
+  border: 2px solid #606CD7;
   box-shadow: 0 0 0 3px white;
-  outline: solid 3px #303fc3;
+  outline: solid 3px #606CD7;
   outline-offset: 2px;
+  color: white;
 }
 
 .super[aria-disabled="true"] {
   font-size: 20px;
   font-family: "Lato Sans", sans-serif;
-  background-color: #318000;
-  border: 2px solid #318000;
+  background-color: #D1FFDA;
+  border: 2px solid #9cc980;
   cursor: not-allowed;
   padding: 12px;
-  color: white;
-  border: none;
+  color: #318000;
   border-radius: 4px;
-  opacity: 35%;
 }
 
 .textOnly:focus {
@@ -242,6 +239,7 @@
 }
 
 .textOnly:active {
+  border: 2px solid #0a0e14;
   background-color: #0a0e14;
   outline-color: #0a0e14;
 }
