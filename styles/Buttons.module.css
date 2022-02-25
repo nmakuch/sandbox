@@ -28,6 +28,7 @@
 .primary:active {
   background-color: #0a0e14;
   outline-color: #0a0e14;
+  border: 2px solid #0a0e14;
 }
 
 .primary {
@@ -40,7 +41,8 @@
   color: white;
   border: 2px solid #26374a;
   border-radius: 4px;
-  transition: all 0.1s ease-in-out;
+  transition: outline 0.1s ease-in-out, background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out;
 }
 
 .primary[aria-disabled="true"]:focus {
@@ -96,7 +98,8 @@
   padding: 12px;
   color: #26374a;
   border-radius: 4px;
-  transition: all 0.1s ease-in-out;
+  transition: outline 0.1s ease-in-out, background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out;
 }
 
 .secondary[aria-disabled="true"]:focus {
@@ -137,6 +140,7 @@
 .danger:active {
   background-color: #1a0606;
   outline-color: #1a0606;
+  border: 2px solid #1a0606;
 }
 
 .danger {
@@ -148,7 +152,8 @@
   padding: 12px;
   color: white;
   border-radius: 4px;
-  transition: all 0.1s ease-in-out;
+  transition: outline 0.1s ease-in-out, background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out;
 }
 
 .danger[aria-disabled="true"]:focus {
@@ -188,6 +193,7 @@
 .super:active {
   background-color: #071200;
   outline-color: #071200;
+  border: 2px solid #071200;
 }
 
 .super {
