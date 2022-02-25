@@ -215,6 +215,7 @@
   font-size: 20px;
   font-family: "Lato Sans", sans-serif;
   background-color: #318000;
+  border: 2px solid #318000;
   cursor: not-allowed;
   padding: 12px;
   color: white;
