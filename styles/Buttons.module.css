@@ -61,7 +61,7 @@
   cursor: not-allowed;
   padding: 12px;
   color: #6b6b6b;
-  border: 2px solid #6b6b6b;
+  border: 2px solid #bfbfbf;
   border-radius: 4px;
 }
 
@@ -115,10 +115,10 @@
   font-size: 20px;
   font-family: "Lato Sans", sans-serif;
   background-color: #ededed;
-  border: 2px solid #bfbfbf;
   cursor: not-allowed;
   padding: 12px;
   color: #6b6b6b;
+  border: 2px solid #bfbfbf;
   border-radius: 4px;
 }
 
@@ -138,9 +138,9 @@
 }
 
 .danger:active {
-  background-color: #1a0606;
-  outline-color: #1a0606;
-  border: 2px solid #1a0606;
+  background-color: #0a0e14;
+  outline-color: #0a0e14;
+  border: 2px solid #0a0e14;
 }
 
 .danger {
@@ -168,11 +168,11 @@
 .danger[aria-disabled="true"] {
   font-size: 20px;
   font-family: "Lato Sans", sans-serif;
-  background-color: #f3e2e2;
-  border: 2px solid #ceafaf;
+  background-color: #ededed;
   cursor: not-allowed;
   padding: 12px;
-  color: #865b5b;
+  color: #6b6b6b;
+  border: 2px solid #bfbfbf;
   border-radius: 4px;
 }
 
@@ -191,9 +191,9 @@
 }
 
 .super:active {
-  background-color: #071200;
-  outline-color: #071200;
-  border: 2px solid #071200;
+  background-color: #0a0e14;
+  outline-color: #0a0e14;
+  border: 2px solid #0a0e14;
 }
 
 .super {
@@ -205,7 +205,8 @@
   color: white;
   border: 2px solid #318000;
   border-radius: 4px;
-  transition: all 0.1s ease-in-out;
+  transition: outline 0.1s ease-in-out, background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out;
 }
 
 .super[aria-disabled="true"]:focus {
@@ -220,11 +221,11 @@
 .super[aria-disabled="true"] {
   font-size: 20px;
   font-family: "Lato Sans", sans-serif;
-  background-color: #dcf7e2;
-  border: 2px solid #9cc980;
+  background-color: #ededed;
   cursor: not-allowed;
   padding: 12px;
-  color: #318000;
+  color: #6b6b6b;
+  border: 2px solid #bfbfbf;
   border-radius: 4px;
 }
 
@@ -261,7 +262,8 @@
   color: #26374a;
   border: 2px solid white;
   border-radius: 4px;
-  transition: all 0.1s ease-in-out;
+  transition: outline 0.1s ease-in-out, background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out;
 }
 
 .textOnly[aria-disabled="true"]:focus {
