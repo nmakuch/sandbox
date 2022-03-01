@@ -176,6 +176,63 @@
   border-radius: 4px;
 }
 
+.dangerOutline:focus {
+  background-color: #303fc3;
+  color: white;
+  border-color: #303fc3;
+  border: 2px solid #303fc3;
+  box-shadow: 0 0 0 3px white;
+  outline: solid 3px #303fc3;
+  outline-offset: 2px;
+}
+
+.dangerOutline:hover {
+  background-color: #F2D4D4;
+  color: #B2302E;
+  border: 2px solid #B2302E;
+  outline-color: #B2302E;
+}
+
+.dangerOutline:active {
+  background-color: #E5A9A9;
+  color: #862423;
+  border: 2px solid #862423;
+  outline-color: #862423;
+}
+
+.dangerOutline {
+  font-size: 20px;
+  font-family: "Lato Sans", sans-serif;
+  background-color: white;
+  border: 2px solid #BC3331;
+  cursor: pointer;
+  padding: 12px;
+  color: #BC3331;
+  border-radius: 4px;
+  transition: outline 0.1s ease-in-out, background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out;
+}
+
+.dangerOutline[aria-disabled="true"]:focus {
+  background-color: #606cd7;
+  border: 2px solid #606cd7;
+  box-shadow: 0 0 0 3px white;
+  outline: solid 3px #606cd7;
+  outline-offset: 2px;
+  color: white;
+}
+
+.dangerOutline[aria-disabled="true"] {
+  font-size: 20px;
+  font-family: "Lato Sans", sans-serif;
+  background-color: #ededed;
+  cursor: not-allowed;
+  padding: 12px;
+  color: #6b6b6b;
+  border: 2px solid #bfbfbf;
+  border-radius: 4px;
+}
+
 .super:focus {
   background-color: #303fc3;
   border: 2px solid #303fc3;
