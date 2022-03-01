@@ -20,9 +20,9 @@
 }
 
 .primary:hover {
-  background-color: #405b79;
-  border: 2px solid #405b79;
-  outline-color: #405b79;
+  background-color: #4f6592;
+  border: 2px solid #4f6592;
+  outline-color: #4f6592;
 }
 
 .primary:active {
@@ -76,17 +76,17 @@
 }
 
 .secondary:hover {
-  background-color: #b7d0e6;
-  color: #26374a;
-  border: 2px solid #26374a;
-  outline-color: #26374a;
+  background-color: #d4e6f2;
+  color: #396293;
+  border: 2px solid #396293;
+  outline-color: #396293;
 }
 
 .secondary:active {
-  border: 2px solid #222c87;
-  color: #0d0f30;
-  background-color: #9eb5de;
-  outline-color: #222c87;
+  background-color: #aad5f2;
+  color: #2B496E;
+  border: 2px solid #2B496E;
+  outline-color: #2B496E;
 }
 
 .secondary {
