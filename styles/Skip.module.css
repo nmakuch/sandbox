@@ -77,40 +77,42 @@
 .skip {
   margin-top: 7px;
   margin-left: 7px;
-  font-size: 18px;
-  line-height: 1;
+  font-size: 20px;
+  line-height: 1.2;
   font-family: "Lato Sans", sans-serif;
-  background-color: #26374a;
-  box-shadow: 0 0 0 3px white;
+  background-color: white;
+  border: 2px solid #26374a;
   cursor: pointer;
   padding: 12px;
-  color: white;
-  border: 2px solid #26374a;
+  color: #26374a;
   border-radius: 4px;
-  transition: outline 0.1s ease-in-out, background-color 0.1s ease-in-out,
-    border-color 0.1s ease-in-out;
   position: absolute;
   transform: translateY(-130%);
-  transition: transform 0.3s;
+  transition: outline 0.1s ease-in-out, background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .skip:focus {
   transform: translateY(0%);
   background-color: #303fc3;
+  color: white;
+  border-color: #303fc3;
   border: 2px solid #303fc3;
-  box-shadow: 0 0 0 2px white;
+  box-shadow: 0 0 0 3px white;
   outline: solid 3px #303fc3;
   outline-offset: 2px;
 }
 
 .skip:hover {
-  background-color: #4f6592;
-  border: 2px solid #4f6592;
-  outline-color: #4f6592;
+  background-color: #d4e6f2;
+  color: #396293;
+  border: 2px solid #396293;
+  outline-color: #396293;
 }
 
 .skip:active {
-  background-color: #0a0e14;
-  outline-color: #0a0e14;
-  border: 2px solid #0a0e14;
+  background-color: #aad5f2;
+  color: #265997;
+  border: 2px solid #265997;
+  outline-color: #265997;
 }

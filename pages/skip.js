@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Skip.module.css'
 
-export default function Buttons() {
+export default function Skip() {
     return (
         <div>
             <Head>
