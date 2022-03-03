@@ -87,6 +87,7 @@
   color: #26374a;
   border-radius: 4px;
   position: absolute;
+  z-index: 200;
   transform: translateY(-130%);
   transition: outline 0.1s ease-in-out, background-color 0.1s ease-in-out,
     border-color 0.1s ease-in-out, transform 0.3s ease-in-out;
