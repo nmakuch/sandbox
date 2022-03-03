@@ -297,16 +297,17 @@
 }
 
 .textOnly:hover {
-  background-color: #405b79;
-  border: 2px solid #405b79;
-  color: white;
-  outline-color: #405b79;
+  background-color: #d4e6f2;
+  color: #396293;
+  border: 2px solid #396293;
+  outline-color: #396293;
 }
 
 .textOnly:active {
-  border: 2px solid #0a0e14;
-  background-color: #0a0e14;
-  outline-color: #0a0e14;
+  background-color: #aad5f2;
+  color: #265997;
+  border: 2px solid #265997;
+  outline-color: #265997;
 }
 
 .textOnly {
