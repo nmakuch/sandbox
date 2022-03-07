@@ -41,11 +41,6 @@ class Home extends React.Component {
                         </section>
 
                         <section className={styles.buttonsSection}>
-                            <h2>Danger button outline</h2>
-                            <button className={styles.dangerOutline}>Danger Button</button>
-                        </section>
-
-                        <section className={styles.buttonsSection}>
                             <h2>Supertask button</h2>
                             <button className={styles.super}>Supertask Button</button>
                         </section>

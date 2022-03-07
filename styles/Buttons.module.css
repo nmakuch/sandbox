@@ -77,16 +77,16 @@
 
 .secondary:hover {
   background-color: #d4e6f2;
-  color: #396293;
-  border: 2px solid #396293;
-  outline-color: #396293;
+  color: #26374a;
+  border: 2px solid #26374a;
+  outline-color: #26374a;
 }
 
 .secondary:active {
   background-color: #aad5f2;
-  color: #265997;
-  border: 2px solid #265997;
-  outline-color: #265997;
+  color: #26374a;
+  border: 2px solid #26374a;
+  outline-color: #26374a;
 }
 
 .secondary {
@@ -187,14 +187,14 @@
 }
 
 .dangerOutline:hover {
-  background-color: #F2D4D4;
-  color: #B2302E;
-  border: 2px solid #B2302E;
-  outline-color: #B2302E;
+  background-color: #f2d4d4;
+  color: #b2302e;
+  border: 2px solid #b2302e;
+  outline-color: #b2302e;
 }
 
 .dangerOutline:active {
-  background-color: #E5A9A9;
+  background-color: #e5a9a9;
   color: #862423;
   border: 2px solid #862423;
   outline-color: #862423;
@@ -204,10 +204,10 @@
   font-size: 20px;
   font-family: "Lato Sans", sans-serif;
   background-color: white;
-  border: 2px solid #BC3331;
+  border: 2px solid #bc3331;
   cursor: pointer;
   padding: 12px;
-  color: #BC3331;
+  color: #bc3331;
   border-radius: 4px;
   transition: outline 0.1s ease-in-out, background-color 0.1s ease-in-out,
     border-color 0.1s ease-in-out;
@@ -298,16 +298,16 @@
 
 .textOnly:hover {
   background-color: #d4e6f2;
-  color: #396293;
-  border: 2px solid #396293;
-  outline-color: #396293;
+  color: #26374a;
+  border: 2px solid #26374a;
+  outline-color: #26374a;
 }
 
 .textOnly:active {
   background-color: #aad5f2;
-  color: #265997;
-  border: 2px solid #265997;
-  outline-color: #265997;
+  color: #26374a;
+  border: 2px solid #26374a;
+  outline-color: #26374a;
 }
 
 .textOnly {
