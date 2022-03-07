@@ -24,7 +24,6 @@ button {
 
 .back:hover {
   color: #2a82cf;
-  text-decoration: underline;
 }
 
 .back:focus {
@@ -32,6 +31,7 @@ button {
   background-color: #303fc3;
   color: white;
   box-shadow: 4px 0 0 0 #303fc3, -4px 0 0 0 #303fc3;
+  text-decoration: underline;
 }
 
 .back {
