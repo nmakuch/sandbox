@@ -31,7 +31,12 @@ export default function Home() {
 
           <a href="/skip" className={styles.card}>
             <h2>Skip to content</h2>
-            <p>Testing a skip to content button for <b>Canada.ca</b></p>
+            <p>Testing a skip to content button</p>
+          </a>
+
+          <a href="/inputs" className={styles.card}>
+            <h2>Text inputs</h2>
+            <p>Testing text inputs for <b>Canada.ca</b></p>
           </a>
         </div>
 

@@ -1,0 +1,88 @@
+.container {
+  margin: auto;
+  width: 1000px;
+}
+
+.InputsMain {
+  margin-top: 0 54px 0 0;
+}
+
+.InputsHeader {
+  margin: 54px 0 0 0;
+}
+
+.InputsSection {
+  margin-bottom: 54px;
+}
+
+.InputsSection .hint {
+  font-size: 16px;
+  margin: 0 0 12px 0;
+  line-height: 1.4;
+  color: #737373;
+}
+
+.label {
+  display: block;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-bottom: 4px;
+  width: 500px;
+}
+
+.input {
+  display: block;
+  padding: 10px 16px;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  min-height: 37px;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.4375;
+  margin-bottom: 28px;
+  color: #262626;
+  background-color: #ffffff;
+  background-image: none;
+  border: 2px solid #353535;
+  border-radius: 4px;
+}
+
+.input:disabled {
+  background-color: #f0f0f0;
+  border-color: #828282;
+  cursor: not-allowed;
+}
+
+.inputFull {
+  display: block;
+  padding: 10px 16px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: 37px;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.4375;
+  margin-bottom: 28px;
+  color: #262626;
+  background-color: #ffffff;
+  background-image: none;
+  border: 2px solid #353535;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .container {
+    margin: auto;
+    width: 900px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .container {
+    margin: auto;
+    width: 700px;
+  }
+}
