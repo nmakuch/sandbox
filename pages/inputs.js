@@ -29,23 +29,33 @@ export default function Inputs() {
                         <h2>Text Inputs</h2>
                         <p>Use fixed width inputs for content that has a specific, known length. For example a postal code has 6 characters so the input field should look 6 characters in size, a telephone number has 10 characters and should look 10 characters in size. We can set this width using the size attribute of the input field (size="50" would be 50 characters).</p>
 
-                        <label className={styles.label}>Postal code</label>
-                        <p className={styles.hint}>6 character input</p>
-                        <input size="6" maxLength="6" className={styles.input} />
+                        <div className={styles.formGroup}>
+                            <label className={styles.label}>Postal code</label>
+                            <p className={styles.hint}>6 character input</p>
+                            <input size="6" maxLength="6" className={styles.input} />
+                        </div>
 
-                        <label className={styles.label}>Phone number</label>
-                        <p className={styles.hint}>10 character input</p>
-                        <input size="10" maxLength="10" className={styles.input} />
+                        <div className={styles.formGroup}>
+                            <label className={styles.label}>Phone number</label>
+                            <p className={styles.hint}>10 character input</p>
+                            <input size="10" maxLength="10" className={styles.input} />
+                        </div>
 
-                        <label className={styles.label}>First name</label>
-                        <p className={styles.hint}>50 character input</p>
-                        <input size="50" maxLength="50" className={styles.input} />
+                        <div className={styles.formGroup}>
+                            <label className={styles.label}>First name</label>
+                            <p className={styles.hint}>50 character input</p>
+                            <input size="50" maxLength="50" className={styles.input} />
+                        </div>
 
                         <p>If we don't know the character count for an input, we should determine a default width. Some design systems set this to 100% of the container they're in.</p>
 
-                        <label className={styles.label}>Unknown</label>
-                        <p className={styles.hint}>Unknown character count</p>
-                        <input size="51" maxLength="50" className={styles.inputFull} />
+                        <div className={styles.formGroup}>
+                            <label className={styles.label}>Unknown</label>
+                            <p className={styles.hint}>Unknown character count</p>
+                            <input size="51" maxLength="50" className={styles.inputFull} />
+                        </div>
+
+                        <p>We could decide on another percentage value if we want, I'm not sure what the best route to go is.</p>
                     </section>
 
                     <section className={styles.InputsSection}>
@@ -55,6 +65,39 @@ export default function Inputs() {
                         <label className={styles.label}>Disabled input</label>
                         <p className={styles.hint}>20 character input</p>
                         <input size="20" maxLength="20" className={styles.input} disabled />
+                    </section>
+
+                    <section className={styles.InputsSection}>
+                        <h2>Error States</h2>
+                        <p>If there's validation attached to our forms we also need to account for what an input looks like if it has not been filled out correctly.</p>
+
+                        <div className={styles.formGroup}>
+                            <label className={styles.label}>Phone number</label>
+                            <p className={styles.hint}>10 character limit</p>
+                            <input size="10" maxLength="10" className={styles.input} />
+                        </div>
+
+                        <div className={styles.formGroup}>
+                            <label className={styles.labelError}>Phone number</label>
+                            <p className={styles.hintError}>10 character limit</p>
+                            <p className={styles.errorMessage}>No letters allowed</p>
+                            <input size="10" maxLength="10" className={styles.inputError} />
+                        </div>
+
+                        <div className={styles.formGroup}>
+                            <label className={styles.label}>Credit card number</label>
+                            <p className={styles.hint}>16 character limit</p>
+                            <input size="16" maxLength="16" className={styles.input} />
+                        </div>
+
+                        <div className={styles.formGroup}>
+                            <label className={styles.labelError}>Credit card number</label>
+                            <p className={styles.hintError}>16 character limit</p>
+                            <p className={styles.errorMessage}>No letters allowed</p>
+                            <input size="16" maxLength="16" className={styles.inputError} />
+                        </div>
+
+                        <p>These would work with an error summary at the top of the page that will have an anchor link pointing at each error in question.</p>
                     </section>
 
                 </div>

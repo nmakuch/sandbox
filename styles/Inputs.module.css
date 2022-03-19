@@ -12,7 +12,7 @@
 }
 
 .InputsSection {
-  margin-bottom: 54px;
+  margin-bottom: 64px;
 }
 
 .InputsSection .hint {
@@ -31,9 +31,23 @@
   width: 500px;
 }
 
+.InputsSection .formGroup:focus-within {
+  color: #303fc3;
+}
+
+.InputsSection .formGroup:focus-within .hint {
+  color: #303fc3;
+}
+
+.input:focus {
+  border-color: #303fc3;
+  box-shadow: 0 0 0 2.5px #303fc3;
+  outline: none;
+}
+
 .input {
   display: block;
-  padding: 10px 16px;
+  padding: 12px 16px;
   width: auto;
   max-width: 100%;
   height: auto;
@@ -47,6 +61,7 @@
   background-image: none;
   border: 2px solid #353535;
   border-radius: 4px;
+  transition: box-shadow 0.15s ease-in-out, border 0.15s ease-in-out;
 }
 
 .input:disabled {
@@ -71,6 +86,77 @@
   background-image: none;
   border: 2px solid #353535;
   border-radius: 4px;
+  transition: box-shadow 0.15s ease-in-out, border 0.15s ease-in-out;
+}
+
+.inputFull:focus {
+  border-color: #303fc3;
+  box-shadow: 0 0 0 2.5px #303fc3;
+  outline: none;
+}
+
+.labelError {
+  color: #d3080c;
+  display: block;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-bottom: 4px;
+  width: 500px;
+}
+
+.inputError {
+  display: block;
+  padding: 12px 16px;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  min-height: 37px;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.4375;
+  margin-bottom: 28px;
+  margin-top: 8px;
+  color: #262626;
+  background-color: #ffffff;
+  background-image: none;
+  border: 2px solid #d3080c;
+  border-radius: 4px;
+  transition: box-shadow 0.15s ease-in-out, border 0.15s ease-in-out;
+}
+
+.InputsSection .formGroup:focus-within .labelError,
+.InputsSection .formGroup:focus-within .hintError {
+  color: #303fc3;
+}
+
+.InputsSection .formGroup:focus-within .errorMessage {
+  color: #353535;
+  background-color: #d4e6f2;
+  border-left: 2px #303fc3 solid;
+}
+
+.inputError:focus {
+  border-color: #303fc3;
+  box-shadow: 0 0 0 2.5px #303fc3;
+  outline: none;
+}
+
+.errorMessage {
+  display: inline-block;
+  background-color: #f3e9e8;
+  width: auto;
+  font-size: 16px;
+  border-left: 2px #d3080c solid;
+  padding: 8px 16px;
+  margin: 0;
+}
+
+.InputsSection .hintError {
+  font-size: 16px;
+  margin: 0 0 6px 0;
+  line-height: 1.4;
+  color: #d3080c;
 }
 
 @media only screen and (max-width: 1250px) {
