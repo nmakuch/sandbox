@@ -72,13 +72,13 @@ export default function Inputs() {
                         <p>If there's validation attached to our forms we also need to account for what an input looks like if it has not been filled out correctly.</p>
 
                         <div className={styles.formGroup}>
-                            <label className={styles.label}>Phone number</label>
+                            <label className={styles.label}>With a hint message</label>
                             <p className={styles.hint}>10 character limit</p>
                             <input size="10" maxLength="10" className={styles.input} />
                         </div>
 
                         <div className={styles.formGroup}>
-                            <label className={styles.labelError}>Phone number</label>
+                            <label className={styles.labelError}>With a hint message</label>
                             <p className={styles.hintError}>10 character limit</p>
                             <p className={styles.errorMessage}>No letters allowed</p>
                             <input size="10" maxLength="10" className={styles.inputError} />
