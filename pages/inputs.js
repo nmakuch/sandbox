@@ -80,7 +80,7 @@ export default function Inputs() {
                         <div className={styles.formGroup}>
                             <label className={styles.labelError}>With a hint message</label>
                             <p className={styles.hintError}>10 character limit</p>
-                            <p className={styles.errorMessage}>No letters allowed</p>
+                            <p className={styles.errorMessage}>This is an error message</p>
                             <input size="10" maxLength="10" className={styles.inputError} />
                         </div>
 
