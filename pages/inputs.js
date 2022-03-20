@@ -85,15 +85,13 @@ export default function Inputs() {
                         </div>
 
                         <div className={styles.formGroup}>
-                            <label className={styles.label}>Credit card number</label>
-                            <p className={styles.hint}>16 character limit</p>
+                            <label className={styles.labelNoHint}>No hint message</label>
                             <input size="16" maxLength="16" className={styles.input} />
                         </div>
 
                         <div className={styles.formGroup}>
-                            <label className={styles.labelError}>Credit card number</label>
-                            <p className={styles.hintError}>16 character limit</p>
-                            <p className={styles.errorMessage}>No letters allowed</p>
+                            <label className={styles.labelError}>No hint message</label>
+                            <p className={styles.errorMessage}>This is an error message</p>
                             <input size="16" maxLength="16" className={styles.inputError} />
                         </div>
 
