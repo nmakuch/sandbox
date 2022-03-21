@@ -141,8 +141,6 @@
 
 .InputsSection .formGroup:focus-within .errorMessage {
   color: #353535;
-  background-color: #d4e6f2;
-  border-left: 2px #303fc3 solid;
 }
 
 .inputError:focus {
