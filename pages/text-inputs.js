@@ -45,7 +45,7 @@ export default function Inputs() {
                             <input size="50" maxLength="50" className={styles.input} />
                         </div>
 
-                        <p>If we don't know the character count for an input, we should determine a default width. Some design systems set this to 100% of the container they're in.</p>
+                        <p>If we don't know the character count for an input the input should span 90% of the container. We should try to limit the width of a form to about 70-80 characters (define width using ch) in the future or we'll have inputs that are too long. I'm basing this off of some general rules for <a href="https://practicaltypography.com/line-length.html">line length.</a> A nice legible line should be between 45-90 characters. The current container of this page is set to 75ch on desktop.</p>
 
                         <div className={styles.formGroup}>
                             <label className={styles.label}>Unknown</label>
@@ -53,15 +53,19 @@ export default function Inputs() {
                             <input size="51" maxLength="50" className={styles.inputFull} />
                         </div>
 
-                        <p>We could decide on another percentage value if we want, I'm not sure what the best route to go is.</p>
+                        <p>We could also go with a different percentage or character count for these cases.</p>
+                    </section>
+                    <section className={styles.InputsSection}>
+                        <h2>Input height</h2>
+                        <p>We’ll also ensure that text inputs have a minimum height of 44px. The inputs on this page (with padding) are 48px in height.</p>
                     </section>
 
                     <section className={styles.InputsSection}>
                         <h2>Disabled Inputs</h2>
-                        <p>It's always better to avoid disabling UI elements, but you might get into a situation where there's no other choice. In these cases, make sure the input receives focus as soon as it's enabled or activated.</p>
-
-                        <label className={styles.label}>Disabled input</label>
-                        <p className={styles.hint}>20 character input</p>
+                        <p>It's always better to avoid disabling UI elements, but you might get into a situation where there's no other choice. In these cases, make sure the input receives focus as soon as it's enabled or provide users with some sort of feedback.</p>
+                        
+                        <label className={styles.labelDisabled}>Disabled input</label>
+                        <p className={styles.hintDisabled}>20 character input</p>
                         <input size="20" maxLength="20" className={styles.input} disabled />
                     </section>
 
@@ -88,7 +92,7 @@ export default function Inputs() {
                         </div>
 
                         <div className={styles.formGroup}>
-                            <label className={styles.labelError}>No hint message</label>
+                            <label className={styles.labelErrorNoHint}>No hint message</label>
                             <p className={styles.errorMessage}>This is an error message</p>
                             <input size="16" maxLength="16" className={styles.inputError} />
                         </div>

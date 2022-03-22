@@ -1,12 +1,12 @@
 .textareaError {
   display: block;
-  padding: 8px 16px;
+  padding: 8px 12px;
   width: 100%;
   max-width: 100%;
   height: auto;
-  min-height: 37px;
+  min-height: 45px;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   margin-bottom: 28px;
   margin-top: 10px;
@@ -20,13 +20,13 @@
 
 .textareaError75 {
   display: block;
-  padding: 8px 16px;
+  padding: 8px 12px;
   width: 75%;
   max-width: 100%;
   height: auto;
-  min-height: 37px;
+  min-height: 45px;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   margin-bottom: 28px;
   margin-top: 10px;
@@ -40,13 +40,13 @@
 
 .textareaError50 {
   display: block;
-  padding: 8px 16px;
+  padding: 8px 12px;
   width: 50%;
   max-width: 100%;
   height: auto;
-  min-height: 37px;
+  min-height: 45px;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   margin-bottom: 28px;
   margin-top: 10px;
@@ -73,7 +73,7 @@
   font-size: 18px;
   line-height: 1.4;
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   width: 500px;
 }
 
@@ -105,7 +105,7 @@
 
 .container {
   margin: auto;
-  width: 1000px;
+  width: 75ch;
 }
 
 .InputsMain {
@@ -121,10 +121,10 @@
 }
 
 .InputsSection .hint {
-  font-size: 16px;
-  margin: 0 0 12px 0;
+  font-size: 18px;
+  margin: 0 0 14px 0;
   line-height: 1.4;
-  color: #737373;
+  color: #393939;
 }
 
 .label {
@@ -136,12 +136,29 @@
   width: 500px;
 }
 
+.labelDisabled {
+  display: block;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-bottom: 4px;
+  width: 500px;
+  color: #707070;
+}
+
+.InputsSection .hintDisabled {
+  font-size: 18px;
+  margin: 0 0 14px 0;
+  line-height: 1.4;
+  color: #707070;
+}
+
 .labelNoHint {
   display: block;
   font-size: 18px;
   line-height: 1.4;
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   width: 500px;
 }
 
@@ -169,11 +186,11 @@
   display: block;
   padding: 8px 10px;
   width: auto;
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
-  min-height: 37px;
+  min-height: 45px;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   margin-bottom: 28px;
   color: #262626;
@@ -186,13 +203,13 @@
 
 .textarea {
   display: block;
-  padding: 8px 10px;
+  padding: 6px 10px;
   width: 100%;
   max-width: 100%;
   height: auto;
-  min-height: 37px;
+  min-height: 45px;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   margin-bottom: 28px;
   color: #262626;
@@ -205,13 +222,13 @@
 
 .textarea75 {
   display: block;
-  padding: 8px 10px;
+  padding: 6px 10px;
   width: 75%;
   max-width: 100%;
   height: auto;
-  min-height: 37px;
+  min-height: 45px;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   margin-bottom: 28px;
   color: #262626;
@@ -224,13 +241,13 @@
 
 .textarea50 {
   display: block;
-  padding: 8px 10px;
+  padding: 6px 10px;
   width: 50%;
   max-width: 100%;
   height: auto;
-  min-height: 37px;
+  min-height: 45px;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   margin-bottom: 28px;
   color: #262626;
@@ -241,21 +258,27 @@
   transition: box-shadow 0.15s ease-in-out, border 0.15s ease-in-out;
 }
 
+.textarea50:disabled {
+  cursor: not-allowed;
+  background-color: #f0f0f0;
+  border-color: #707070;
+}
+
 .input:disabled {
   background-color: #f0f0f0;
-  border-color: #828282;
+  border-color: #707070;
   cursor: not-allowed;
 }
 
 .inputFull {
   display: block;
-  padding: 8px 16px;
-  width: 100%;
-  max-width: 100%;
+  padding: 8px 10px;
+  width: 90%;
+  max-width: 90%;
   height: auto;
-  min-height: 37px;
+  min-height: 45px;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   margin-bottom: 28px;
   color: #262626;
@@ -282,18 +305,28 @@
   width: 500px;
 }
 
+.labelErrorNoHint {
+  color: #d3080c;
+  display: block;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-bottom: 6px;
+  width: 500px;
+}
+
 .inputError {
   display: block;
-  padding: 8px 16px;
+  padding: 8px 12px;
   width: auto;
   max-width: 100%;
   height: auto;
-  min-height: 37px;
+  min-height: 45px;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   margin-bottom: 28px;
-  margin-top: 10px;
+  margin-top: 12px;
   color: #262626;
   background-color: #ffffff;
   background-image: none;
@@ -302,8 +335,26 @@
   transition: box-shadow 0.15s ease-in-out, border 0.15s ease-in-out;
 }
 
+.InputsSection a {
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.InputsSection a:hover {
+  color: #2a82cf;
+}
+
+.InputsSection a:focus {
+  outline: none;
+  background-color: #303fc3;
+  color: white;
+  box-shadow: 4px 0 0 0 #303fc3, -4px 0 0 0 #303fc3;
+  text-decoration: underline;
+}
+
 .InputsSection .formGroup:focus-within .labelError,
 .InputsSection .formGroup:focus-within .labelErrorRequired,
+.InputsSection .formGroup:focus-within .labelErrorNoHint,
 .InputsSection .formGroup:focus-within .hintError {
   color: #303fc3;
 }
@@ -325,19 +376,9 @@
   display: inline-block;
   background-color: #f3e9e8;
   width: auto;
-  font-size: 16px;
+  font-size: 18px;
   border-left: 2px #d3080c solid;
-  padding: 8px 16px;
-  margin: 0;
-}
-
-.errorMessage100 {
-  display: inline-block;
-  background-color: #f3e9e8;
-  width: 100%;
-  font-size: 16px;
-  border-left: 2px #d3080c solid;
-  padding: 8px 16px;
+  padding: 8px 16px 8px 12px;
   margin: 0;
 }
 
@@ -345,9 +386,9 @@
   display: inline-block;
   background-color: #f3e9e8;
   width: 75%;
-  font-size: 16px;
+  font-size: 18px;
   border-left: 2px #d3080c solid;
-  padding: 8px 16px;
+  padding: 8px 16px 8px 12px;
   margin: 0;
 }
 
@@ -355,15 +396,15 @@
   display: inline-block;
   background-color: #f3e9e8;
   width: 50%;
-  font-size: 16px;
+  font-size: 18px;
   border-left: 2px #d3080c solid;
-  padding: 8px 16px;
+  padding: 8px 16px 8px 12px;
   margin: 0;
 }
 
 .InputsSection .hintError {
-  font-size: 16px;
-  margin: 0 0 6px 0;
+  font-size: 18px;
+  margin: 0 0 8px 0;
   line-height: 1.4;
   color: #d3080c;
 }
@@ -371,13 +412,13 @@
 @media only screen and (max-width: 1250px) {
   .container {
     margin: auto;
-    width: 900px;
+    width: 75ch;
   }
 }
 
 @media only screen and (max-width: 950px) {
   .container {
     margin: auto;
-    width: 700px;
+    width: 75ch;
   }
 }

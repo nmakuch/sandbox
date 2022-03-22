@@ -26,27 +26,27 @@ export default function Inputs() {
 
                     <section className={styles.InputsSection}>
                         <h2>Input width</h2>
-                        <p>Textareas can take up 100% of the form's width if it's fairly narrow (and we should set them to 100% width by default), but it could also be set to a percentage value like 75% if the form is really wide. See the example below</p>
-
+                        <p>In order to avoid overly long input lengths we should try to limit the width of a form to about 70-80 characters (define width using ch) in the future or we'll have inputs that are too long. I'm basing this off of some general rules for <a href="https://practicaltypography.com/line-length.html">line length</a>. A nice legible line should be between 45-90 characters. The current container of this page is set to 75ch on desktop.</p>
+                        <p>Default textareas will be 100% the container width. Alternatively you can set the width to a percentage value but I wouldn't suggest setting it lower than 50%.</p>
                         <div className={styles.formGroup}>
                             <label className={styles.label}>Textarea full width</label>
-                            <p className={styles.hint}>The container on this page is too wide</p>
+                            <p className={styles.hint}>Hint: Textarea is 100% width by default</p>
                             <textarea className={styles.textarea} />
                         </div>
 
                         <div className={styles.formGroup}>
                             <label className={styles.label}>Textarea 3/4 width</label>
-                            <p className={styles.hint}>Set the textarea width to 75%</p>
+                            <p className={styles.hint}>Hint: Set the textarea width to 75%</p>
                             <textarea className={styles.textarea75} />
                         </div>
 
                         <div className={styles.formGroup}>
                             <label className={styles.labelRequired}>Textarea 1/2 width</label>
-                            <p className={styles.hint}>Set the textarea width to 50%</p>
+                            <p className={styles.hint}>Hint: Set the textarea width to 50%</p>
                             <textarea className={styles.textarea50} />
                         </div>
 
-                        <p>Not sure if there are varying page widths on Canada.ca sites, but from what I've seen most forms are pretty wide.</p>
+                        <p></p>
                     </section>
 
                     <section className={styles.InputsSection}>
@@ -55,19 +55,19 @@ export default function Inputs() {
 
                         <div className={styles.formGroup}>
                             <label className={styles.label}>I want a taller textarea (full width)</label>
-                            <p className={styles.hint}>Rows has been set to 4</p>
+                            <p className={styles.hint}>Hint: Rows has been set to 4</p>
                             <textarea rows="4" className={styles.textarea} />
                         </div>
 
                         <div className={styles.formGroup}>
                             <label className={styles.label}>I want a taller textarea (3/4 width)</label>
-                            <p className={styles.hint}>Rows has been set to 5</p>
+                            <p className={styles.hint}>Hint: Rows has been set to 5</p>
                             <textarea rows="5" className={styles.textarea75} />
                         </div>
 
                         <div className={styles.formGroup}>
-                            <label className={styles.labelRequired}>I was a taller textarea (3/4 width)</label>
-                            <p className={styles.hint}>Rows has been set to 6</p>
+                            <label className={styles.labelRequired}>I want a taller textarea (1/2 width)</label>
+                            <p className={styles.hint}>Hint: Rows has been set to 6</p>
                             <textarea rows="6" className={styles.textarea50} />
                         </div>
 
@@ -75,41 +75,53 @@ export default function Inputs() {
                     </section>
 
                     <section className={styles.InputsSection}>
+                        <h2>Disabled textareas</h2>
+                        <p>It's always better to avoid disabling UI elements, but you might get into a situation where there's no other choice. In these cases, make sure the textarea receives focus as soon as it's enabled or provide users with some sort of feedback that it's been enabled.</p>
+                        <div className={styles.formGroup}>
+                            <label className={styles.labelDisabled}>Disabled textarea</label>
+                            <p className={styles.hintDisabled}>Hint: this textarea is disabled</p>
+                            <textarea rows="6" className={styles.textarea50} disabled />
+                        </div>
+                        <p></p>
+                    </section>
+
+                    <section className={styles.InputsSection}>
                         <h2>Error state</h2>
 
                         <div className={styles.formGroup}>
                             <label className={styles.labelNoHint}>Error with no hint</label>
-                            <textarea rows="5" className={styles.textarea50} />
+                            <textarea rows="3" className={styles.textarea75} />
                         </div>
 
                         <div className={styles.formGroup}>
                             <label className={styles.labelError}>Error with no hint</label>
-                            <p className={styles.errorMessage}>This error message is as wide as the textarea</p>
-                            <textarea rows="5" className={styles.textareaError50} />
+                            <p className={styles.errorMessage75}>This is an error message</p>
+                            <textarea rows="3" className={styles.textareaError75} />
                         </div>
 
                         <div className={styles.formGroup}>
                             <label className={styles.label}>Error with hint</label>
-                            <p className={styles.hint}>Set the textarea width to 75%</p>
+                            <p className={styles.hint}>Hint: Set the textarea width to 75%</p>
                             <textarea rows="3" className={styles.textarea75} />
                         </div>
 
                         <div className={styles.formGroup}>
                             <label className={styles.labelError}>Error with hint</label>
-                            <p className={styles.hintError}>Set the textarea width to 75%</p>
-                            <p className={styles.errorMessage}>This error message is as wide as the textarea</p>
+                            <p className={styles.hintError}>Hint: Set the textarea width to 75%</p>
+                            <p className={styles.errorMessage75}>This is an error message</p>
                             <textarea rows="3" className={styles.textareaError75} />
                         </div>
 
                         <div className={styles.formGroup}>
                             <label className={styles.labelRequired}>Textarea 1/2 width</label>
-                            <p className={styles.hint}>Set the textarea width to 50%</p>
+                            <p className={styles.hint}>Hint: Set the textarea width to 50%</p>
                             <textarea rows="3" className={styles.textarea50} />
                         </div>
 
                         <div className={styles.formGroup}>
                             <label className={styles.labelErrorRequired}>Textarea 1/2 width</label>
                             <p className={styles.hintError}>Set the textarea width to 50%</p>
+                            <p className={styles.errorMessage50}>This is an error message</p>
                             <textarea rows="3" className={styles.textareaError50} />
                         </div>
 
