@@ -34,9 +34,14 @@ export default function Home() {
             <p>Testing a skip to content button</p>
           </a>
 
-          <a href="/inputs" className={styles.card}>
+          <a href="/text-inputs" className={styles.card}>
             <h2>Text inputs</h2>
             <p>Testing text inputs for <b>Canada.ca</b></p>
+          </a>
+
+          <a href="/textarea" className={styles.card}>
+            <h2>Textarea</h2>
+            <p>Testing textarea for <b>Canada.ca</b></p>
           </a>
         </div>
 
