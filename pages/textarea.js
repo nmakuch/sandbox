@@ -91,26 +91,26 @@ export default function Inputs() {
                         <div className={styles.formGroup}>
                             <label className={styles.label}>Error with hint</label>
                             <p className={styles.hint}>Set the textarea width to 75%</p>
-                            <textarea className={styles.textarea75} />
+                            <textarea rows="3" className={styles.textarea75} />
                         </div>
 
                         <div className={styles.formGroup}>
                             <label className={styles.labelError}>Error with hint</label>
                             <p className={styles.hintError}>Set the textarea width to 75%</p>
                             <p className={styles.errorMessage}>This error message is as wide as the textarea</p>
-                            <textarea className={styles.textareaError75} />
+                            <textarea rows="3" className={styles.textareaError75} />
                         </div>
 
                         <div className={styles.formGroup}>
                             <label className={styles.labelRequired}>Textarea 1/2 width</label>
                             <p className={styles.hint}>Set the textarea width to 50%</p>
-                            <textarea className={styles.textarea50} />
+                            <textarea rows="3" className={styles.textarea50} />
                         </div>
 
                         <div className={styles.formGroup}>
                             <label className={styles.labelErrorRequired}>Textarea 1/2 width</label>
                             <p className={styles.hintError}>Set the textarea width to 50%</p>
-                            <textarea className={styles.textareaError50} />
+                            <textarea rows="3" className={styles.textareaError50} />
                         </div>
 
                         <p> </p>
