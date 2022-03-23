@@ -45,7 +45,20 @@ export default function Inputs() {
                             <input size="50" maxLength="50" className={styles.input} />
                         </div>
 
-                        <p>If we don't know the character count for an input the input should span 90% of the container. We should try to limit the width of a form to about 70-80 characters (define width using ch) in the future or we'll have inputs that are too long. I'm basing this off of some general rules for <a href="https://practicaltypography.com/line-length.html">line length.</a> A nice legible line should be between 45-90 characters. The current container of this page is set to 75ch on desktop.</p>
+                        <p>
+                            If we don't know the character count for an input, the input should span almost the entire container ~ 1 line of text. I've set it to 90% here.
+                        </p>
+                        <p>
+                            Additionally we need to define how wide 1 line of text is.
+                            A general rule for <a href="https://practicaltypography.com/line-length.html">line length</a> states that a nice legible line of text
+                            should be somewhere between 45-90 characters. Overly long lines of text are less comfortable for the eye to track and lose some legibility.
+                        </p>
+                        <p>
+                            I'm suggesting that in the future we limit our container sizes, a form in this case, somewhere between 70-80ch (characters can be used as a unit of measurement to set width)
+                        </p>
+                        <p>
+                            If it's not possible to limit the container size, alternately, we could limit the text inputs themselves to 70-80ch and anything over that range would be appropriate for a textarea instead.
+                        </p>
 
                         <div className={styles.formGroup}>
                             <label className={styles.label}>Unknown</label>
@@ -63,7 +76,7 @@ export default function Inputs() {
                     <section className={styles.InputsSection}>
                         <h2>Disabled Inputs</h2>
                         <p>It's always better to avoid disabling UI elements, but you might get into a situation where there's no other choice. In these cases, make sure the input receives focus as soon as it's enabled or provide users with some sort of feedback.</p>
-                        
+
                         <label className={styles.labelDisabled}>Disabled input</label>
                         <p className={styles.hintDisabled}>20 character input</p>
                         <input size="20" maxLength="20" className={styles.input} disabled />
