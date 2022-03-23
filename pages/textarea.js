@@ -25,15 +25,26 @@ export default function Inputs() {
                     </section>
 
                     <section className={styles.InputsSection}>
-                        <h2>Input width</h2>
-                        <p>In order to avoid overly long input lengths we should try to limit the width of a form to about 70-80 characters (define width using ch) in the future or we'll have inputs that are too long. I'm basing this off of some general rules for <a href="https://practicaltypography.com/line-length.html">line length</a>. A nice legible line should be between 45-90 characters. The current container of this page is set to 75ch on desktop.</p>
-                        <p>Default textareas will be 100% the container width. Alternatively you can set the width to a percentage value but I wouldn't suggest setting it lower than 50%.</p>
+                        <h2>Textarea width</h2>
+                        <p>A text areas width should span the entire container of the form or close to it (this would be proportional to 1 line of text).</p>
+
+                        <p>Additionally we need to define how wide 1 line of text is. A general rule for line length states that a nice legible line of text should be somewhere between 45-90 characters. Overly long lines of text are less comfortable for the eye to track and lose some legibility.</p>
+
+                        <p>I'm suggesting that in the future we limit our container sizes, a form in this case, somewhere between 70-80ch (characters can be used as a unit of measurement to set width)</p>
+
+                        <p>If it's not possible to limit the container size, alternately, we could limit the textareas themselves to 70-80ch and anything under that range would be appropriate for a text input instead.</p>
+
                         <div className={styles.formGroup}>
                             <label className={styles.label}>Textarea full width</label>
                             <p className={styles.hint}>Hint: Textarea is 100% width by default</p>
                             <textarea className={styles.textarea} />
                         </div>
+                        <p></p>
+                    </section>
 
+                    <section className={styles.InputsSection}>
+                        <h2>Setting width alternately</h2>
+                        <p>Some might feel like that is too wide if the textarea only has 2 rows and want to set the width to a percentage value, which is fine but I wouldn't suggest setting it any lower than 50%</p>
                         <div className={styles.formGroup}>
                             <label className={styles.label}>Textarea 3/4 width</label>
                             <p className={styles.hint}>Hint: Set the textarea width to 75%</p>
@@ -80,14 +91,15 @@ export default function Inputs() {
                         <div className={styles.formGroup}>
                             <label className={styles.labelDisabled}>Disabled textarea</label>
                             <p className={styles.hintDisabled}>Hint: this textarea is disabled</p>
-                            <textarea rows="6" className={styles.textarea50} disabled />
+                            <textarea rows="6" className={styles.textarea75} disabled />
                         </div>
                         <p></p>
                     </section>
 
                     <section className={styles.InputsSection}>
                         <h2>Error state</h2>
-
+                        <p>If an error is triggered upon form submission, the label and input border should change to our danger colour.  Additionally, an error message should appear above the field with information on what went wrong.</p>
+                        <p>Error message banner should span the width of the input for textareas.</p>
                         <div className={styles.formGroup}>
                             <label className={styles.labelNoHint}>Error with no hint</label>
                             <textarea rows="3" className={styles.textarea75} />
@@ -124,7 +136,6 @@ export default function Inputs() {
                             <p className={styles.errorMessage50}>This is an error message</p>
                             <textarea rows="3" className={styles.textareaError50} />
                         </div>
-
                         <p> </p>
                     </section>
                 </div>

@@ -24,6 +24,11 @@ export default function Inputs() {
                     </section>
 
                     <section className={styles.InputsSection}>
+                        <h2>Input height</h2>
+                        <p>We’ll also ensure that text inputs have a minimum height of 44px. The inputs on this page (with padding) are 48px in height.</p>
+                    </section>
+
+                    <section className={styles.InputsSection}>
                         <h2>Input widths</h2>
                         <p>Use fixed width inputs for content that has a specific, known length. For example a postal code has 6 characters so the input field should look 6 characters in size, a telephone number has 10 characters and should look 10 characters in size. We can set this width using the size attribute of the input field (size="50" would be 50 characters).</p>
 
@@ -59,6 +64,9 @@ export default function Inputs() {
                         <p>
                             If it's not possible to limit the container size, alternately, we could limit the text inputs themselves to 70-80ch and anything over that range would be appropriate for a textarea instead.
                         </p>
+                        <p>
+                            The container on this page is 75ch on desktop.
+                        </p>
 
                         <div className={styles.formGroup}>
                             <label className={styles.label}>Unknown</label>
@@ -67,10 +75,6 @@ export default function Inputs() {
                         </div>
 
                         <p>We could also go with a different percentage or character count for these cases.</p>
-                    </section>
-                    <section className={styles.InputsSection}>
-                        <h2>Input height</h2>
-                        <p>We’ll also ensure that text inputs have a minimum height of 44px. The inputs on this page (with padding) are 48px in height.</p>
                     </section>
 
                     <section className={styles.InputsSection}>
@@ -84,7 +88,8 @@ export default function Inputs() {
 
                     <section className={styles.InputsSection}>
                         <h2>Error States</h2>
-                        <p>If there's validation attached to our forms we also need to account for what an input looks like if it has not been filled out correctly.</p>
+                        <p>If an error is triggered upon form submission, the label and input border should change to our danger colour.  Additionally, an error message should appear above the field with information on what went wrong.</p>
+                        <p>Error message banner should span the width of the it's content for text inputs.</p>
 
                         <div className={styles.formGroup}>
                             <label className={styles.label}>With a hint message</label>

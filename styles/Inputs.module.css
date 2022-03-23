@@ -193,7 +193,7 @@
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 28px;
-  color: #262626;
+  color: #353535;
   background-color: #ffffff;
   background-image: none;
   border: 2px solid #353535;
@@ -203,7 +203,7 @@
 
 .textarea {
   display: block;
-  padding: 6px 10px;
+  padding: 8px 10px;
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -222,7 +222,7 @@
 
 .textarea75 {
   display: block;
-  padding: 6px 10px;
+  padding: 8px 10px;
   width: 75%;
   max-width: 100%;
   height: auto;
@@ -241,7 +241,7 @@
 
 .textarea50 {
   display: block;
-  padding: 6px 10px;
+  padding: 8px 10px;
   width: 50%;
   max-width: 100%;
   height: auto;
@@ -258,7 +258,8 @@
   transition: box-shadow 0.15s ease-in-out, border 0.15s ease-in-out;
 }
 
-.textarea50:disabled {
+.textarea50:disabled,
+.textarea75:disabled {
   cursor: not-allowed;
   background-color: #f0f0f0;
   border-color: #707070;
