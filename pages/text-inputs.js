@@ -59,10 +59,10 @@ export default function Inputs() {
                             somewhere between 45-90 characters are more legible. Overly long lines of text are more cumbersome for the eye to track and lose some legibility.
                         </p>
                         <p>
-                            I'm suggesting that in the future we limit our widths to somewhere between 70-80ch (characters can be used as a unit of measurement to set width)
+                            I'm suggesting that in the future we limit our form widths to somewhere between 70-80ch (characters can be used as a unit of measurement to set width)
                         </p>
                         <p>
-                            If it's not possible to limit the container size, alternately, we could limit the text inputs themselves to 70-80ch and anything over that range would be appropriate for a textarea instead.
+                            If it's not possible to limit the form container size, alternately, we could limit the text inputs themselves to 70-80ch and anything over that range would be appropriate for a textarea instead.
                         </p>
                         <p>
                             The container on this page is 75ch on desktop.
