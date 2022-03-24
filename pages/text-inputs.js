@@ -30,7 +30,7 @@ export default function Inputs() {
 
                     <section className={styles.InputsSection}>
                         <h2>Input widths</h2>
-                        <p>Use fixed width inputs for content that has a specific, known length. For example a postal code has 6 characters so the input field should look 6 characters in size, a telephone number has 10 characters and should look 10 characters in size. We can set this width using the size attribute of the input field (size="50" would be 50 characters).</p>
+                        <p>Use fixed width inputs for content that has a specific, known length. For example a postal code has 6 characters so the input field should look 6 characters in size, a telephone number has 10 characters and should look 10 characters in size. An easy way to set this is by using the size attribute of the input field (size="50" would be 50 characters).</p>
 
                         <div className={styles.formGroup}>
                             <label className={styles.label}>Postal code</label>
