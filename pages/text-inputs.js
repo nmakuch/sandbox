@@ -25,7 +25,7 @@ export default function Inputs() {
 
                     <section className={styles.InputsSection}>
                         <h2>Input height</h2>
-                        <p>To ensure we have an accessible touch target for our inputs on mobile, we should make sure our inputs are 44px in height at a minimum. The inputs on this page (with padding) are 48px in height.</p>
+                        <p>To ensure we have an accessible touch target for our inputs on mobile, we should make sure our inputs are 44px in height at a minimum. The inputs on this page (line height + padding) are 48px in height.</p>
                     </section>
 
                     <section className={styles.InputsSection}>
