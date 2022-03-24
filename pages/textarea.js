@@ -26,11 +26,11 @@ export default function Inputs() {
 
                     <section className={styles.InputsSection}>
                         <h2>Textarea width</h2>
-                        <p>A text areas width should span the entire container of the form or close to it (this would be proportional to 1 line of text).</p>
+                        <p>A text area's width should span the entire container of the form, or close to it. This would be proportionate to 1 line of text.</p>
 
-                        <p>Additionally we need to define how wide 1 line of text is. A general rule for line length states that a nice legible line of text should be somewhere between 45-90 characters. Overly long lines of text are less comfortable for the eye to track and lose some legibility.</p>
+                        <p>We would then need to define exactly how wide 1 line of text is. Typographic rules state that a nice legible line of text should be somewhere between 45-90 characters. Overly long lines of text are more cumbersome for the eye to track and lose some legibility.</p>
 
-                        <p>I'm suggesting that in the future we limit our container sizes, a form in this case, somewhere between 70-80ch (characters can be used as a unit of measurement to set width)</p>
+                        <p>I'm suggesting that in the future we limit our form widths to somewhere between 70-80ch (characters can be used as a unit of measurement to set width)</p>
 
                         <p>If it's not possible to limit the container size, alternately, we could limit the textareas themselves to 70-80ch and anything under that range would be appropriate for a text input instead.</p>
 
