@@ -55,8 +55,8 @@ export default function Inputs() {
                         </p>
                         <p>
                             Additionally we need to define how wide 1 line of text is.
-                            A general rule for <a href="https://practicaltypography.com/line-length.html">line length</a> states that they 
-                            should be somewhere between 45-90 characters are easier to read. Overly long lines of text are more cumbersome for the eye to track and lose some legibility.
+                            A general rule for <a href="https://practicaltypography.com/line-length.html">line length</a> states that lines 
+                            somewhere between 45-90 characters are more legible. Overly long lines of text are more cumbersome for the eye to track and lose some legibility.
                         </p>
                         <p>
                             I'm suggesting that in the future we limit our widths to somewhere between 70-80ch (characters can be used as a unit of measurement to set width)
