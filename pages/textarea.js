@@ -34,6 +34,8 @@ export default function Inputs() {
 
                         <p>If it's not possible to limit the container size, alternately, we could limit the textareas themselves to 70-80ch and anything under that range would be appropriate for a text input instead.</p>
 
+                        <p>The container on this page is 75ch on desktop.</p>
+
                         <div className={styles.formGroup}>
                             <label className={styles.label}>Textarea full width</label>
                             <p className={styles.hint}>Hint: Textarea is 100% width by default</p>
