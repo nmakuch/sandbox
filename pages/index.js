@@ -46,7 +46,15 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
+          <a href="/radio-buttons" className={styles.card}>
+            <h2>Radio Buttons</h2>
+            <p>Testing radio buttons for <b>Canada.ca</b></p>
+          </a>
 
+          <a href="/checkboxes" className={styles.card}>
+            <h2>Checkboxes</h2>
+            <p>Testing checkboxes for <b>Canada.ca</b></p>
+          </a>
         </div>
       </main>
 
