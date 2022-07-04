@@ -110,6 +110,7 @@ fieldset:focus-within .hint-error {
   display: block;
   padding: 0 0 0 64px;
   color: black;
+  cursor: pointer;
 }
 
 .wrapper input[type="radio"]:disabled + label,
@@ -141,6 +142,7 @@ fieldset:focus-within .hint-error {
   position: absolute;
   top: -8px;
   width: 40px;
+  cursor: pointer;
 }
 
 .wrapper input[type="checkbox"].error + label::before,
@@ -173,6 +175,7 @@ fieldset:focus-within .hint-error {
   transform: rotate(40deg);
   transition: opacity 0.2s ease-in-out;
   width: 12px;
+  cursor: pointer;
 }
 
 .wrapper input[type="checkbox"].error + label::after {
@@ -224,6 +227,7 @@ fieldset:focus-within .hint-error {
   top: -8px;
   width: 40px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .wrapper input[type="radio"]:disabled + label::before {
@@ -250,6 +254,7 @@ fieldset:focus-within .hint-error {
   background-color: black;
   transition: opacity 0.2s ease-in-out;
   width: 14px;
+  cursor: pointer;
 }
 
 /*reveal check for 'on' state*/
