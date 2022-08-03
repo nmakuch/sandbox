@@ -25,15 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/checkboxes": [
+    "/buttons": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/checkboxes.js"
+      "static/chunks/pages/buttons.js"
     ],
-    "/radio-buttons": [
+    "/select": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/radio-buttons.js"
+      "static/chunks/pages/select.js"
     ]
   },
   "ampFirstPages": []

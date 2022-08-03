@@ -122,18 +122,18 @@ export default function RadioButtons() {
                             <h3 className={styles.radiosLabelDisabled}>What type of accessibilty issues do you see most often?</h3>
                             <p className="hint-disabled">Choose all the options that apply to you from the list below</p>
                             <div class="wrapper">
-                                <input disabled id="a11y-issue-1c" name="a11y-issues6" type="radio" value="no-issues" />
-                                <label for="a11y-issue-1c">There are no issues.</label>
+                                <input disabled id="a11y-issue-1e" name="a11y-issues6" type="radio" value="no-issues" />
+                                <label for="a11y-issue-1e">There are no issues.</label>
                             </div>
 
                             <div class="wrapper">
-                                <input disabled id="a11y-issue-2c" name="a11y-issues6" type="radio" value="no-focus-styles" />
-                                <label for="a11y-issue-2c">Focus styles are not present.</label>
+                                <input disabled id="a11y-issue-2e" name="a11y-issues6" type="radio" value="no-focus-styles" />
+                                <label for="a11y-issue-2e">Focus styles are not present.</label>
                             </div>
 
                             <div class="wrapper">
-                                <input disabled id="a11y-issue-3c" name="a11y-issues6" type="radio" value="html-markup" />
-                                <label for="a11y-issue-3c">HTML markup is used in a bizarre way. Also, what happens if the label text is very looooooooong, like this one?</label>
+                                <input disabled id="a11y-issue-3e" name="a11y-issues6" type="radio" value="html-markup" />
+                                <label for="a11y-issue-3e">HTML markup is used in a bizarre way. Also, what happens if the label text is very looooooooong, like this one?</label>
                             </div>
                         </fieldset>
                     </section>
