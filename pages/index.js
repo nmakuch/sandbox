@@ -29,9 +29,9 @@ export default function Home() {
             <p>Testing button states for <b>Canada.ca</b></p>
           </a>
 
-          <a href="/skip" className={styles.card}>
-            <h2>Skip to content</h2>
-            <p>Testing a skip to content button</p>
+          <a href="/select" className={styles.card}>
+            <h2>Select</h2>
+            <p>A select component for <b>Canada.ca</b></p>
           </a>
 
           <a href="/text-inputs" className={styles.card}>

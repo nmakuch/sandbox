@@ -116,6 +116,7 @@ fieldset:focus-within .hint-error {
 .wrapper input[type="radio"]:disabled + label,
 .wrapper input[type="checkbox"]:disabled + label {
   color: #707070;
+  cursor: not-allowed;
 }
 
 .wrapper input[type="checkbox"].error + label,

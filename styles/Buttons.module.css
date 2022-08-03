@@ -45,16 +45,8 @@
     border-color 0.1s ease-in-out;
 }
 
-.primary[aria-disabled="true"]:focus {
-  background-color: #606cd7;
-  border: 2px solid #606cd7;
-  box-shadow: 0 0 0 3px white;
-  outline: solid 3px #606cd7;
-  outline-offset: 2px;
-  color: white;
-}
-
-.primary[aria-disabled="true"] {
+.primary[aria-disabled="true"],
+.primary:disabled {
   font-size: 20px;
   font-family: "Lato Sans", sans-serif;
   background-color: #ededed;
@@ -102,16 +94,8 @@
     border-color 0.1s ease-in-out;
 }
 
-.secondary[aria-disabled="true"]:focus {
-  background-color: #606cd7;
-  border: 2px solid #606cd7;
-  box-shadow: 0 0 0 3px white;
-  outline: solid 3px #606cd7;
-  outline-offset: 2px;
-  color: white;
-}
-
-.secondary[aria-disabled="true"] {
+.secondary[aria-disabled="true"],
+.secondary:disabled {
   font-size: 20px;
   font-family: "Lato Sans", sans-serif;
   background-color: #ededed;
@@ -156,16 +140,8 @@
     border-color 0.1s ease-in-out;
 }
 
-.danger[aria-disabled="true"]:focus {
-  background-color: #606cd7;
-  border: 2px solid #606cd7;
-  box-shadow: 0 0 0 3px white;
-  outline: solid 3px #606cd7;
-  outline-offset: 2px;
-  color: white;
-}
-
-.danger[aria-disabled="true"] {
+.danger[aria-disabled="true"],
+.danger:disabled {
   font-size: 20px;
   font-family: "Lato Sans", sans-serif;
   background-color: #ededed;
@@ -198,92 +174,6 @@
   color: #862423;
   border: 2px solid #862423;
   outline-color: #862423;
-}
-
-.dangerOutline {
-  font-size: 20px;
-  font-family: "Lato Sans", sans-serif;
-  background-color: white;
-  border: 2px solid #bc3331;
-  cursor: pointer;
-  padding: 12px;
-  color: #bc3331;
-  border-radius: 4px;
-  transition: outline 0.1s ease-in-out, background-color 0.1s ease-in-out,
-    border-color 0.1s ease-in-out;
-}
-
-.dangerOutline[aria-disabled="true"]:focus {
-  background-color: #606cd7;
-  border: 2px solid #606cd7;
-  box-shadow: 0 0 0 3px white;
-  outline: solid 3px #606cd7;
-  outline-offset: 2px;
-  color: white;
-}
-
-.dangerOutline[aria-disabled="true"] {
-  font-size: 20px;
-  font-family: "Lato Sans", sans-serif;
-  background-color: #ededed;
-  cursor: not-allowed;
-  padding: 12px;
-  color: #6b6b6b;
-  border: 2px solid #bfbfbf;
-  border-radius: 4px;
-}
-
-.super:focus {
-  background-color: #303fc3;
-  border: 2px solid #303fc3;
-  box-shadow: 0 0 0 3px white;
-  outline: solid 3px #303fc3;
-  outline-offset: 2px;
-}
-
-.super:hover {
-  background-color: #215401;
-  border: 2px solid #215401;
-  outline-color: #215401;
-}
-
-.super:active {
-  background-color: #0a0e14;
-  outline-color: #0a0e14;
-  border: 2px solid #0a0e14;
-}
-
-.super {
-  font-size: 20px;
-  font-family: "Lato Sans", sans-serif;
-  background-color: #318000;
-  cursor: pointer;
-  padding: 12px;
-  color: white;
-  border: 2px solid #318000;
-  border-radius: 4px;
-  transition: outline 0.1s ease-in-out, background-color 0.1s ease-in-out,
-    border-color 0.1s ease-in-out;
-}
-
-.super[aria-disabled="true"]:focus {
-  background-color: #606cd7;
-  border: 2px solid #606cd7;
-  box-shadow: 0 0 0 3px white;
-  outline: solid 3px #606cd7;
-  outline-offset: 2px;
-  color: white;
-}
-
-.super[aria-disabled="true"] {
-  font-size: 20px;
-  font-family: "Lato Sans", sans-serif;
-  background-color: #ededed;
-  cursor: not-allowed;
-  padding: 12px;
-  color: #6b6b6b;
-  border: 2px solid #bfbfbf;
-  border-radius: 4px;
 }
 
 .textOnly:focus {
@@ -324,16 +214,8 @@
     border-color 0.1s ease-in-out;
 }
 
-.textOnly[aria-disabled="true"]:focus {
-  background-color: #606cd7;
-  border: 2px solid #606cd7;
-  box-shadow: 0 0 0 3px white;
-  outline: solid 3px #606cd7;
-  outline-offset: 2px;
-  color: white;
-}
-
-.textOnly[aria-disabled="true"] {
+.textOnly[aria-disabled="true"],
+.textOnly:disabled {
   font-size: 20px;
   font-family: "Lato Sans", sans-serif;
   background-color: white;

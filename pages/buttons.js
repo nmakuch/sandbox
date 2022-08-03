@@ -41,18 +41,13 @@ class Home extends React.Component {
                         </section>
 
                         <section className={styles.buttonsSection}>
-                            <h2>Supertask button</h2>
-                            <button className={styles.super}>Supertask Button</button>
-                        </section>
-
-                        <section className={styles.buttonsSection}>
                             <h2>Text-only Button</h2>
                             <a tabIndex="0" className={styles.textOnly}>Text-only Button</a>
                         </section>
 
                         <section className={styles.buttonsSection}>
                             <h2>Disabled button</h2>
-                            <button aria-disabled="true" className={styles.primary}>Disabled Primary Button</button>
+                            <button disabled className={styles.primary}>Disabled Primary Button</button>
                         </section>
                     </div>
                 </main>
